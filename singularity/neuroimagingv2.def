@@ -1,0 +1,51 @@
+Bootstrap: docker
+From: continuumio/anaconda3
+
+%setup
+    # Create /project and /scratch directories
+    mkdir -p $SINGULARITY_ROOTFS/project
+    mkdir -p $SINGULARITY_ROOTFS/scratch
+
+%post
+    # Update image OS and install dependencies
+    apt-get update 
+    apt-get install -y wget git ffmpeg libsm6 libxext6 build-essential bc libgomp1 imagemagick ca-certificates
+
+    # Install FSL
+    FSL_VERSION=6.0.4
+    wget https://fsl.fmrib.ox.ac.uk/fsldownloads/fsl-${FSL_VERSION}-centos7_64.tar.gz
+    tar -xzvf fsl-${FSL_VERSION}-centos7_64.tar.gz -C /usr/local
+    rm fsl-${FSL_VERSION}-centos7_64.tar.gz
+
+    # Set permissions for FSL directory
+    chmod -R 755 /usr/local/fsl
+
+    # Set up FSL environment variables
+    echo "export FSLDIR=/usr/local/fsl" >> /environment
+    echo ". ${FSLDIR}/etc/fslconf/fsl.sh" >> /environment
+    echo "export PATH=${FSLDIR}/bin:${PATH}" >> /environment
+
+    # Install Python dependencies
+    pip install --upgrade pip
+    pip install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host=files.pythonhosted.org \
+        scipy matplotlib pandas scikit-learn seaborn \
+        moviepy==1.0.3 librosa ffmpeg-python \
+        nipype nibabel nilearn dipy mne fury 
+    
+    pip install --trusted-host github.com git+https://github.com/netneurolab/neuromaps.git
+
+    # Install Jupyter Notebook
+    conda install jupyter -y --quiet 
+    mkdir /opt/notebooks
+
+    apt-get autoremove -y
+    apt-get clean
+
+%environment
+    # Set environment variables
+    export FSLOUTPUTTYPE=NIFTI
+    export FSLDIR=/usr/local/fsl
+    export PATH=$FSLDIR/bin:$PATH
+
+%runscript
+    echo "Container built successfully!"

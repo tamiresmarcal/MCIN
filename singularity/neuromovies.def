@@ -1,0 +1,40 @@
+Bootstrap: docker
+From: continuumio/anaconda3
+
+%setup
+    # Create /project and /scratch directories
+    mkdir -p $SINGULARITY_ROOTFS/project
+    mkdir -p $SINGULARITY_ROOTFS/scratch
+
+%files
+    # Copy all the folders from a directory in my machine to the new directory inside the new machine
+
+# %environment
+#     export PATH=/opt/conda/bin:$PATH
+
+%post
+    # Update image OS and install dependencies
+    apt-get update 
+    apt-get install -y wget git ffmpeg libsm6 libxext6 
+    pip install --upgrade pip
+
+    # Install jupyter notebook
+    /opt/conda/bin/conda install jupyter -y --quiet 
+    mkdir /opt/notebooks
+    apt-get autoremove -y
+    apt-get clean
+
+    # Install Python dependencies
+    pip install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host=files.pythonhosted.org scipy
+    pip install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host=files.pythonhosted.org matplotlib
+    pip install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host=files.pythonhosted.org pandas 
+    pip install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host=files.pythonhosted.org torch 
+    pip install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host=files.pythonhosted.org torchvision 
+    pip install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host=files.pythonhosted.org torchaudio 
+    pip install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host=files.pythonhosted.org deepface 
+    pip install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host=files.pythonhosted.org moviepy 
+    pip install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host=files.pythonhosted.org librosa 
+
+%runscript
+    echo "Container built successfully!"
+    
