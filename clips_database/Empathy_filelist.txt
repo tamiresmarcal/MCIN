@@ -1,0 +1,4 @@
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Empathy_pulpfiction_net_median_abs_5_6572_6582.0_clip.mp4'
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Empathy_pulpfiction_net_median_abs_5_7042_7052.0_clip.mp4'
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Empathy_pulpfiction_net_median_abs_5_6332_6342.0_clip.mp4'
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Empathy_12yearsaslave_net_median_abs_5_6115_6125.0_clip.mp4'
