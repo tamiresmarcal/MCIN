@@ -1,0 +1,7 @@
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Emotional_scene_and_face_processing_theshawshankredemption_net_median_abs_5_5171_5181.0_clip.mp4'
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Emotional_scene_and_face_processing_12yearsaslave_net_median_abs_5_4855_4865.0_clip.mp4'
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Emotional_scene_and_face_processing_theprestige_net_median_abs_5_4115_4125.0_clip.mp4'
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Emotional_scene_and_face_processing_pulpfiction_net_median_abs_5_4992_5002.0_clip.mp4'
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Emotional_scene_and_face_processing_pulpfiction_net_median_abs_5_5922_5932.0_clip.mp4'
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Emotional_scene_and_face_processing_pulpfiction_net_median_abs_5_3742_3752.0_clip.mp4'
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Emotional_scene_and_face_processing_pulpfiction_net_median_abs_5_5042_5052.0_clip.mp4'

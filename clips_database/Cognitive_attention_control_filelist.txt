@@ -1,0 +1,8 @@
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Cognitive_attention_control_pulpfiction_fc_median_abs_5_6102_6112.0_clip.mp4'
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Cognitive_attention_control_12yearsaslave_net_median_abs_5_6585_6595.0_clip.mp4'
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Cognitive_attention_control_pulpfiction_net_median_abs_5_8122_8132.0_clip.mp4'
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Cognitive_attention_control_pulpfiction_double_metric_10_3762_3772.0_clip.mp4'
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Cognitive_attention_control_theprestige_net_median_abs_5_4355_4365.0_clip.mp4'
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Cognitive_attention_control_pulpfiction_net_median_abs_5_4732_4742.0_clip.mp4'
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Cognitive_attention_control_backtothefuture_net_median_abs_5_4014_4024.0_clip.mp4'
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Cognitive_attention_control_littlemisssunshine_net_median_abs_5_4440_4450.0_clip.mp4'
