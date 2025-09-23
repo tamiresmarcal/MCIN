@@ -1,4 +1,0 @@
-file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Autobiographical_memory_pulpfiction_net_median_abs_5_8192_8202.0_clip.mp4'
-file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Autobiographical_memory_pulpfiction_net_median_abs_5_7092_7102.0_clip.mp4'
-file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Autobiographical_memory_pulpfiction_net_median_abs_5_8362_8372.0_clip.mp4'
-file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Autobiographical_memory_pulpfiction_net_median_abs_5_4352_4362.0_clip.mp4'
