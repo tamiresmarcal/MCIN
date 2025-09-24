@@ -1,0 +1,5 @@
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Reward_littlemisssunshine_net_median_abs_5_2600_2610.0_clip.mp4'
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Reward_pulpfiction_net_median_abs_5_3882_3892.0_clip.mp4'
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Reward_pulpfiction_net_median_abs_5_7492_7502.0_clip.mp4'
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Reward_theprestige_net_median_abs_5_4405_4415.0_clip.mp4'
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Reward_backtothefuture_net_median_abs_5_5164_5174.0_clip.mp4'
