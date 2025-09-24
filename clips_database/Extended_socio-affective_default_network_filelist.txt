@@ -1,0 +1,6 @@
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Extended_socio-affective_default_network_12yearsaslave_net_median_abs_5_5775_5785.0_clip.mp4'
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Extended_socio-affective_default_network_12yearsaslave_net_median_abs_5_6925_6935.0_clip.mp4'
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Extended_socio-affective_default_network_theprestige_net_median_abs_5_6005_6015.0_clip.mp4'
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Extended_socio-affective_default_network_backtothefuture_net_median_abs_5_6394_6404.0_clip.mp4'
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Extended_socio-affective_default_network_pulpfiction_net_median_abs_5_3692_3702.0_clip.mp4'
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Extended_socio-affective_default_network_littlemisssunshine_net_median_abs_5_5080_5090.0_clip.mp4'

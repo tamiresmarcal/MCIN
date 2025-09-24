@@ -1,0 +1,3 @@
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Motor_12yearsaslave_net_median_abs_5_4785_4795.0_clip.mp4'
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Motor_pulpfiction_net_median_abs_5_7142_7152.0_clip.mp4'
+file '/home/tamires/projects/rpp-aevans-ab/tamires/data/movies_derived/convergence_clips_v2/Motor_littlemisssunshine_net_median_abs_5_3260_3270.0_clip.mp4'
